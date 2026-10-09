@@ -36,7 +36,7 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
     setPhase('flap');
     window.setTimeout(() => setPhase('cardOut'), 450);
     window.setTimeout(() => setPhase('unfold'), 1000);
-    window.setTimeout(() => setPhase('done'), 2100);
+    window.setTimeout(() => setPhase('done'), 2700);
   }
 
   const isIntroVisible = phase !== 'done';
