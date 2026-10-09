@@ -34,9 +34,9 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
 
   function handleOpen() {
     setPhase('flap');
-    window.setTimeout(() => setPhase('cardOut'), 700);
-    window.setTimeout(() => setPhase('unfold'), 1500);
-    window.setTimeout(() => setPhase('done'), 3000);
+    window.setTimeout(() => setPhase('cardOut'), 450);
+    window.setTimeout(() => setPhase('unfold'), 1000);
+    window.setTimeout(() => setPhase('done'), 2100);
   }
 
   const isIntroVisible = phase !== 'done';
@@ -80,8 +80,8 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
                     >
                       {index === 1 && (
                         <div className="fold-panel-content">
-                          <span className="monogram">A &amp; G</span>
-                          <span className="save-the-date">together with their families</span>
+                          <span className="invitation-kicker">You are invited to the wedding of</span>
+                          <span className="invitation-names">Aaron Voigt<br /><i>and</i><br />Genevieve Ovsak</span>
                         </div>
                       )}
                     </motion.div>
