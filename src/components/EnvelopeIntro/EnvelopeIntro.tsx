@@ -36,7 +36,6 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
     setPhase('flap');
     window.setTimeout(() => setPhase('cardOut'), 450);
     window.setTimeout(() => setPhase('unfold'), 1000);
-    window.setTimeout(() => setPhase('done'), 3500);
   }
 
   const isIntroVisible = phase !== 'done';
@@ -47,6 +46,9 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
         {isIntroVisible && (
           <motion.div
             className="intro-stage"
+            onClick={() => {
+              if (phase === 'unfold') setPhase('done');
+            }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.6, ease: 'easeInOut' }}
           >
@@ -107,6 +109,16 @@ export function EnvelopeIntro({ children }: EnvelopeIntroProps) {
               >
                 Open Your Invitation
               </motion.button>
+            )}
+            {phase === 'unfold' && (
+              <motion.p
+                className="continue-invitation-prompt"
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+              >
+                Click anywhere to continue
+              </motion.p>
             )}
           </motion.div>
         )}

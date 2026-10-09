@@ -151,6 +151,15 @@
   color: #fffaf4;
 }
 
+.continue-invitation-prompt {
+  margin: -1rem 0 0;
+  color: var(--color-sage);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .site-content {
   position: relative;
   padding-top: 1rem;
