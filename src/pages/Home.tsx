@@ -2,6 +2,7 @@ import './Home.css';
 import { useEffect, useState } from 'react';
 import { RoundBarnMark } from '../components/RoundBarnMark/RoundBarnMark';
 import { faqs } from '../data/wedding';
+import { publicAsset } from '../lib/assets';
 
 type Countdown = {
   days: number;
@@ -56,7 +57,7 @@ export function Home() {
       </div>
       <figure className="home-photo">
         <img
-          src="/images/couple-portrait.png"
+          src={publicAsset('images/couple-portrait.png')}
           alt="Aaron and Genevieve beneath a flower-covered garden arch"
         />
         <figcaption>Our Favorite Place Is Together</figcaption>

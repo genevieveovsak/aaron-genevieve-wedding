@@ -1,4 +1,5 @@
 import { OrnamentalRule } from '../components/OrnamentalRule/OrnamentalRule';
+import { publicAsset } from '../lib/assets';
 import './WeddingPages.css';
 
 export function OurStory() {
@@ -23,7 +24,7 @@ export function OurStory() {
       </section>
 
       <figure className="story-photo">
-        <img src="/images/couple-portrait.png" alt="Aaron and Genevieve beneath a flower-covered garden arch" />
+        <img src={publicAsset('images/couple-portrait.png')} alt="Aaron and Genevieve beneath a flower-covered garden arch" />
         <figcaption>Our Favorite Place Is Together</figcaption>
       </figure>
 

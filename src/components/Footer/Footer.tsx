@@ -1,5 +1,6 @@
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { publicAsset } from '../../lib/assets';
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
       <div className="site-footer-inner">
         <img
           className="site-footer-logo"
-          src="/images/floral-monogram-transparent.png"
+          src={publicAsset('images/floral-monogram-transparent.png')}
           alt="Aaron and Genevieve monogram"
         />
         <div className="site-footer-copy">

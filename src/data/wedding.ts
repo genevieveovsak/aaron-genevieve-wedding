@@ -1,3 +1,5 @@
+import { publicAsset } from '../lib/assets';
+
 export const weddingDate = 'August 28, 2027';
 export const weddingVenue = 'The Round Barn Farm';
 export const weddingLocation = 'Red Wing, Minnesota';
@@ -30,7 +32,7 @@ export const faqs = [
 ];
 
 export const galleryImages = [
-  { category: 'engagement', alt: 'Aaron and Genevieve beneath a garden arch', src: '/images/couple-portrait.png' },
-  { category: 'proposal', alt: 'Aaron and Genevieve floral monogram', src: '/images/floral-monogram-transparent.png' },
-  { category: 'relationship', alt: 'The Round Barn Farm line drawing', src: '/images/round-barn.png' },
+  { category: 'engagement', alt: 'Aaron and Genevieve beneath a garden arch', src: publicAsset('images/couple-portrait.png') },
+  { category: 'proposal', alt: 'Aaron and Genevieve floral monogram', src: publicAsset('images/floral-monogram-transparent.png') },
+  { category: 'relationship', alt: 'The Round Barn Farm line drawing', src: publicAsset('images/round-barn.png') },
 ];
