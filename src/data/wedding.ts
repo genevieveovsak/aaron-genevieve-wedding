@@ -5,13 +5,12 @@ export const weddingVenue = 'The Round Barn Farm';
 export const weddingLocation = 'Red Wing, Minnesota';
 
 export const schedule = [
-  { time: '4:00 PM', event: 'Ceremony', detail: 'Outdoor ceremony on the lawn' },
-  { time: '4:30 PM', event: 'Cocktail Hour', detail: 'Drinks, lawn games, and time to wander' },
-  { time: '5:30 PM', event: 'Dinner & Toasts', detail: 'Good food and words from the people we love' },
-  { time: '7:00 PM', event: 'Special Dances', detail: 'First dances, then the night opens up' },
-  { time: '7:20 PM', event: 'Dancing', detail: 'Country favorites and a full dance floor' },
-  { time: '8:00 PM', event: 'Bonfire', detail: 'Gather outside under the stars' },
-  { time: '10:30 PM', event: 'Farewell', detail: 'Music winds down and the evening wraps up' },
+  { time: '3:00 PM', event: 'Ceremony', detail: 'Outdoor ceremony on the lawn' },
+  { time: '3:30 PM', event: 'Cocktail Hour', detail: 'Socialize, enjoy a drink, then find your seat' },
+  { time: '5:00 PM', event: 'Dinner, Speeches & Dessert', detail: 'Tables are released for meals, followed by speeches and dessert' },
+  { time: '6:30 PM', event: 'First Dances', detail: 'Join us for our first dances' },
+  { time: '6:45 PM', event: 'Open Dance Floor', detail: 'Dancing, drinks, and bonfire good times until the last dance' },
+  { time: '10:00 PM', event: 'Last Dance', detail: 'One last song to close out the night' },
 ];
 
 export const menu = {

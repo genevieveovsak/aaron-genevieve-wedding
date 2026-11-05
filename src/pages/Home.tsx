@@ -67,7 +67,7 @@ export function Home() {
         <div className="home-detail-grid">
           <div><span>When</span><strong>August 28, 2027</strong><small>Saturday celebration</small></div>
           <div><span>Where</span><strong>The Round Barn Farm</strong><small>Red Wing, Minnesota</small></div>
-          <div><span>Ceremony</span><strong>4:00 PM</strong><small>Outdoor lawn</small></div>
+          <div><span>Ceremony</span><strong>3:00 PM</strong><small>Outdoor lawn</small></div>
           <div><span>Attire</span><strong>Garden formal</strong><small>Dressy garden-party attire</small></div>
         </div>
       </section>

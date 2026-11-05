@@ -11,7 +11,7 @@ export function Details() {
         </div>
         <div>
           <span className="info-label">Ceremony</span>
-          <strong>4:00 p.m.</strong>
+          <strong>3:00 p.m.</strong>
           <small>Outdoor lawn</small>
         </div>
         <div>
@@ -20,7 +20,7 @@ export function Details() {
           <small>Upscale garden tea party</small>
         </div>
       </div>
-      <p>Festivities begin at 4:00 p.m. with an outdoor ceremony, followed by cocktails, dinner, and dancing in the barn.</p>
+      <p>Festivities begin at 3:00 p.m. with an outdoor ceremony, followed by cocktails, dinner, speeches, dessert, and dancing in the barn.</p>
       <p>Think dressy garden-party attire: polished, colorful, and celebratory. Because the property has pebbly gravel and grass, flats, wedges, or block heels are much better choices than stilettos. Bring a light layer for the evening.</p>
     </section>
   );
